@@ -58,7 +58,7 @@ def load_configs_model(model_name='darknet', configs=None):
         configs.num_workers = 4
         configs.pin_memory = True
         configs.use_giou_loss = False
-
+        
     elif model_name == 'fpn_resnet':
         ####### ID_S3_EX1-3 START #######     
         #######
@@ -139,7 +139,10 @@ def load_configs(model_name='fpn_resnet', configs=None):
     # visualization parameters
     configs.output_width = 608 # width of result image (height may vary)
     configs.obj_colors = [[0, 255, 255], [0, 0, 255], [255, 0, 0]] # 'Pedestrian': 0, 'Car': 1, 'Cyclist': 2
-
+    
+    # Evaluation parameters
+    configs.min_iou = .5
+    
     return configs
 
 
