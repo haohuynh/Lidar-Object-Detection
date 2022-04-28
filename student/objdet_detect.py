@@ -228,7 +228,10 @@ def detect_objects(input_bev_maps, model, configs):
     # Extract 3d bounding boxes from model response
     print("student task ID_S3_EX2")
     objects = []
-    detections = detections[0].get(1) # Unpack the actual detections
+        
+    if configs.arch == "fpn_resnet":
+        detections = detections[0].get(1) # Unpack the actual detections    
+    
     ## step 1 : check whether there are any detections
     if len(detections) > 0:
         
