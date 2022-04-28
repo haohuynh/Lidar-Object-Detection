@@ -21,7 +21,7 @@ This is a pre-setup project. Every single step has its own configurations. I hav
 
 + Same sequence as Example 1
 + Two vehicle in the middle can be separeted easier than Example 1
-+ Red, Yellow, and Orange dots are moving into the road from the right
++ Red, Yellow, and Orange dots are moving into the road from the right. Unsure the representations of them.
 
 #### Example 3
 <img src="images/NDS2EX2_2.JPG"/>
