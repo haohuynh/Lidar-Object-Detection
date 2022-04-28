@@ -16,6 +16,6 @@ This is a pre-setup project. Every single step has its own configurations. I hav
 + Hard to identify each individual, standard vehicle far way. 
 
 
-###Please comment all the visualization (e.g., ID_S2_EX1/2/3) for observing the below statistics
+### Please comment all the visualization (e.g., ID_S2_EX1/2/3) for observing the below statistics
 <img src="images/performance.png"/>
 
